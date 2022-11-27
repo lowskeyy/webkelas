@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Rubik+Glitch&display=swap');
+
+
+body {
+    background-color: #000;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid #52057B;
+    padding: 10px;
+}
+
+.judul,
+.subjudul {
+    font-family: 'Nerko One', cursive;
+    color: #BC6FF1;
+}
+
+.murid {
+    font-family: 'Nerko One', cursive;
+    color: #BC6FF1;
+}
+
+.btn-cari {
+    border: 2px solid #52057B;
+}

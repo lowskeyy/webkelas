@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #2E0249;
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    color: #F806CC;
+    padding: 20px;
+    font-family: 'Josefin Sans';
+}
+
+.container button {
+    color: #F806CC;
+    background: none;
+    border: 2px solid #F806CC;
+    padding: 10px;
+}
+
+.container button:hover {
+    color: #570A57;
+    border: 2px solid #570A57;
+    transition: .2s;
+}
+
+
+
+
+
+
+
+
+
