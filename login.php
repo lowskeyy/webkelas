@@ -6,7 +6,6 @@ if (isset($_SESSION["login"])) {
     exit;
 }
 
-
 require 'functions.php';
 
 if (isset($_POST["login"])) {
@@ -20,6 +19,7 @@ if (isset($_POST["login"])) {
     if (mysqli_num_rows($result) === 1) {
 
         $_SESSION["login"] = true;
+        $_SESSION["user"] = $username;
         // cek password
         $row = mysqli_fetch_assoc($result);
         if (password_verify($password, $row["password"])) {

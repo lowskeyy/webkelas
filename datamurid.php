@@ -3,7 +3,7 @@ require 'functions.php';
 $murid = query("SELECT * FROM datamurid");
 
 if (isset($_POST["search"])) {
-    $murid = cari($_POST["keyword"]);
+    $murid = carimurid($_POST["keyword"]);
 }
 
 

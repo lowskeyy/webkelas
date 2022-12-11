@@ -13,7 +13,7 @@ function query($query)
     return $rows;
 }
 
-function cari($key)
+function carimurid($key)
 {
     $query = "SELECT * FROM datamurid WHERE
     nama LIKE '%$key%' OR
